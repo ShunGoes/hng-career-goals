@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Tenali+Ramakrishna&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tenali Ramakrishna", sans-serif;
+  margin-bottom: 0px;
+}
+.header-section {
+  background-color: #003049;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-h1 {
+  font-size: 40px;
+  width: 90vw;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#time,
+#day {
+  font-weight: 700;
+}
+
+/* About section */
+.about-section {
+  background-color: #f4f4f4;
+}
+.about-header {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+.image-container {
+  width: 90vw;
+  margin: 10px auto;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-list {
+  margin-left: 0;
+  padding: 10px;
+}
+.about-list li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background-color: #003049;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: wheat;
+}
+.footer-link-container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* styles for large screens  */
+@media screen and (min-width: 1024px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+}
